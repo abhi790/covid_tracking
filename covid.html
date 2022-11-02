@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/covid.css">
+    <title>Covid 19 tracker</title>
+</head>
+<body>
+    <!-- <p>Just for testing <a href="./testing_api.html">Click Here</a></p> -->
+    <div class="container">
+        <h1 class="credit">Covid 19 Tracker by Abhimanyu Roy</h1>
+        <input type="text" class="inputElement" placeholder="Enter country name" />
+        <button class="btn">Get Data</button>
+        <br>
+        <div class="error"></div>
+        <div id="countryDiv">
+            <div class="classCountry">
+                 <span>Country </span> : <p id="countryName"></p>
+            </div>
+        </div>
+        <br>
+        <div id="container">
+            <div class="activeCasesDiv">
+                <p>Active Cases</p>  
+                <p class="activeCases"></p>
+            </div>
+    
+            <div class="newCasesDiv">
+                <p>New Cases</p> 
+                <p class="newCases"></p>
+            </div>
+    
+            <div class="recoveredCasesDiv">
+                <p>Recovered Cases</p>  
+                <p class="recoveredCases"></p>
+            </div>
+            <br />
+        </div>
+    
+        <div id="container">
+            <div class="totalCasesDiv">
+
+                <p>Total Cases</p>  
+                <p class="totalCases"></p>
+            </div>
+    
+            <div class="totalDeathsDiv">
+                <p>Total Deaths</p>   
+                <p class="totalDeaths"></p>
+            </div>
+    
+            <div class="totalTestsDiv">
+                <p>Total Tests</p>  
+                <p class="totalTests"></p>
+            </div>
+            <br />
+            
+    
+        </div>
+    </div>
+    
+   
+</body>
+
+<!-- javascript  -->
+<script src="./js/covid.js"></script>
+</html>

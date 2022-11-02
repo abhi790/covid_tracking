@@ -1,0 +1,142 @@
+body{
+    text-align: center;
+    align-items: center;
+    background:  #88c3a2;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 32px;
+    background: #233968;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    color: white;
+    margin-left: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(29,29,29,0.5);
+    
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+input{
+    padding: 15px 40px 15px 40px;
+    border-radius: 50px;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(29,29,29,0.5); */
+    box-shadow: inset 12px 12px 12px #cbced1, inset -12px -12px -12px white;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container{
+    width: fit-content;
+    margin: auto;
+    padding: 20px 50px 20px 50px;
+    margin-top: 80px;
+    border-radius: 32px;
+    background: #88c3a2;
+    box-shadow: 20px 20px 60px #74a68a, -20px -20px 60px #9ce0ba;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#container > div {
+    width: 200px;
+    height: 200px;
+}
+
+.classCountry{
+    background-color: hsl(19, 97%, 76%);
+    color: white;
+    text-align:center;
+    font-size: 3.5rem;
+    margin-top:  25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 662px;
+    /* width: fit-content; */
+    height: fit-content;;
+
+}
+
+#countryName{
+    display: inline;
+}
+
+.activeCasesDiv{
+    background-color: hsl(19, 100%, 53%);
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.newCasesDiv{
+    background-color: #8a0202;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.recoveredCasesDiv{
+    background-color: #23f045;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.totalCasesDiv{
+    background-color: #0b1bfc;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.totalDeathsDiv{
+    background-color: #ff0000;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.totalTestsDiv{
+    background-color: #171a18;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.error{
+    font-size: 1rem;
+    color:red;
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
+.credit{
+    font-size: 3rem;
+    color: #2f00ff;
+}
